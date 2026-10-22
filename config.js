@@ -1,7 +1,6 @@
-// Supabase Dashboard > Project Settings > API bölümünden doldurun.
-// Sadece publishable key (sb_publishable_...) veya eski anon key kullanın.
-// Secret key / service_role key ASLA buraya yazılmaz.
+// Cloudflare Worker adresini buraya yazın. Sonunda /api veya /health OLMAMALI.
+// Örnek biçim: https://alzemarket-cekilis-api.HESABINIZ.workers.dev
+// GitHub token veya yönetici şifresi bu dosyaya ASLA yazılmaz.
 window.ALZE_CONFIG = {
-  supabaseUrl: "",
-  supabaseKey: ""
+  apiUrl: "https://shy-star-eb70alzemarket-cekilis-api.pirahmetler.workers.dev"
 };
